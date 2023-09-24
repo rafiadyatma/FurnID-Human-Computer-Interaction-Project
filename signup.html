@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">FurnID</a>
+            </div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="What are you looking for?">
+                </form>
+                <a href="" class="button">Search</a>
+            </div>
+            <div class="menu">
+                <ul class="page-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Shopping Cart</a></li>
+                </ul>
+                <ul class="login-menu">
+                    <li><a href="" class="button">LOG IN</a></li>
+                    <li><a href="signup.html" class="button">SIGN UP</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div class="title">
+        <h1>Register</h1>
+    </div>
+
+    <section class="registration">
+        <div class="registration-form">
+            <form action="" class="form">
+                <div class="first-name">
+                    <label for="">First Name</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                </div>
+                <div class="last-name">
+                    <label for="">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                </div>
+                <div class="email">
+                    <label for="">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="username">
+                    <label for="">Username</label>
+                    <input type="text" id="username" placeholder="Create a username" required>
+                </div>
+                <div class="password">
+                    <label for="">Password</label>
+                    <input type="password" id="password" placeholder="Create a password" required>
+                </div>
+                <div class="verify">
+                    <label for="verify">Verify Password</label>
+                    <input type="password" id="verify" placeholder="Verify password" required>
+                </div>
+                <div class="date">
+                    <label for="">Birth Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="city">
+                    <label for="">City</label>
+                    <select name="" id="city" required>
+                        <option></option>
+                        <option value="Bali">Bali</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Bekasi">Bekasi</option>
+                        <option value="Bogor">Bogor</option>
+                        <option value="Depok">Depok</option>
+                        <option value="Jakarta Barat">Jakarta Barat</option>
+                        <option value="Jakarta Selatan">Jakarta Selatan</option>
+                        <option value="Jakarta Pusat">Jakarta Pusat</option>
+                        <option value="Jakarta Timur">Jakarta Timur</option>
+                        <option value="Jakarta Utara">Jakarta Utara</option>
+                        <option value="Tangerang">Tangerang</option>
+                        <option value="Tangerang Selatan">Tangerang Selatan</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Yogyakarta">Yogyakarta</option>
+                    </select>
+                </div>
+                <div class="postal-code">
+                    <label for="">Postal Code</label>
+                    <input type="number" id="postalCode" required>
+                </div>
+                <div class="address">
+                    <label for="address">Address</label>
+                    <textarea name="" id="address" cols="45" rows="10"></textarea>
+                </div>
+                <div class="submit-reset-btn">
+                    <input type="submit" value="submit" id="submitBtn">
+                    <input type="reset" value="reset" id="submitBtn">
+                </div>
+            </form>
+        </div>
+
+        <div class="summary">
+            <h4 id="firstName1"></h4>
+            <p id="firstName1" id="lastName1"></p>
+            <p id="lastName1"></p>
+            <p id="email1"></p>
+            <p id="username1"></p>
+            <p id="date1"></p>
+            <p id="city1"></p>
+            <p id="postalCode1"></p>
+            <p id="address1"></p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h3>FurnID</h3>
+
+        <div class="row">
+            <div class="footer-col1">
+               <ul>
+                   <li><a href="">About Us</a></li>
+                   <li><a href="">Promotion</a></li>
+                   <li><a href="">Career</a></li>
+                   <li><a href="">Store Location</a></li>
+                   <li><a href="">Term & conditions</a></li>
+               </ul>
+            </div>
+            <div class="footer-col2">
+                <ul>
+                    <li><a href="">Customer Service</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col3">
+                <h5>Our Social Media</h5>
+                <ul>
+                    <li class="instagram"><a href="https://www.instagram.com/?hl=id"> @Furn.ID</a></li>
+                    <li class="twitter"><a href="https://twitter.com/login">@Furn.ID</a></li>
+                    <li class="pinterest"><a href="https://id.pinterest.com/">@Furn.ID</a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU0OTE1NjQ0LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">@Furn.ID</a></li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+                <a href="#"><img src="googleplay.png" alt=""></a>
+                <a href="#"><img src="appstore.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
